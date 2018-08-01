@@ -1,0 +1,21 @@
+[
+  {
+    "name": "test",
+    "desc": "show dir DIR",
+    "cmd": "dir %(DIR)s",
+    "paras": ["DIR"]
+  },
+  {
+    "name": "walk",
+    "desc": "walk DIR",
+    "cmd": "python plugins/walk.py %(VAR)s",
+    "paras": ["VAR"]
+  },
+  {
+    "name": "talk",
+    "desc": "interactive TEXT",
+    "cmd": "python plugins/interactive.py %(TEXT)s",
+    "paras": ["TEXT"],
+    "interactive": "true"
+  }
+]
